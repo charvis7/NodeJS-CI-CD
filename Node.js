@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/leonelmctk/NodeJS-CI-CD.git'
+                git 'https://github.com/charvis7/NodeJS-CI-CD/'
             }
         }
         stage('Install Dependencies') {
